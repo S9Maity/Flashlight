@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    tools:context="com.example.souvik.flashlight.MainActivity">
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="FLASHLIGHT APP"
+        android:textSize="32dp"
+        android:textColor="@color/colorPrimary"
+        android:gravity="center"
+        android:layout_marginTop="28dp"
+        />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/offscreen"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:scaleType="fitCenter"
+        android:background="@color/colorBackground"
+        android:id="@+id/btnon"
+        />
+    <TextView
+        android:id="@+id/helptext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="400dp"
+        android:text="Tap the icon to turn on/off the flashlight"
+        android:textSize="15dp"
+        android:textColor="#003399"
+        android:gravity="center"
+        />
+
+
+
+
+</RelativeLayout>
